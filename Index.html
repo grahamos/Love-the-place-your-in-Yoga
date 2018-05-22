@@ -14,10 +14,10 @@
 <!--START BODY-->
 <!--The first class in each tag defines the WAI/ARIA role taxonomy and
  describes the characteristics and properties of all the roles-->
-<body role="document">
+<body class="home" role="document">
 	<header role="banner">
  		<h1 role="heading">
-  		<a href="#" title="Love The Place Your in Yoga" target="_blank">Love The Place Your in Yoga</a>
+ 			<a href="#" title="Love The Place Your in Yoga" target="_blank">Love The Place Your in Yoga</a>
  		</h1>
   
 <!--START NAVIGATION-->
@@ -50,78 +50,77 @@
 <!--END NAVIGATION--> 
 
 <!--START MAIN-->
-	<main role="main">
+	<main role="main" class="main">
 <!--START SECTION -->
-		<header class="clients">
+	  <aside role="complementary">
+		<header role="banner" class="clients">
 		  <blockquote>
-			  <q class="testimonial"> 
-				  <em>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quams</em>
-			  </q>
+			<q class="testimonial"> 
+			  <em>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quams</em>
+			</q>
 		  </blockquote>
 		</header>
 		<footer>
-			<cite> 
-				<span class="author">Rick James</span> web designer 
-			</cite> 
+		  <cite> 
+			<span class="author">Rick James</span> web designer 
+		  </cite> 
 		</footer>
-    
+	  </aside>
 <!--END SECTION --> 
-    
+
 <!--START SECTION -->
-		<section class="yogaPractice">
-		  <h2 role="heading">
-			  <a href="hatha_yoga.html" title="Types of practice" target="_self">Hatha Yoga </a> 
-		  </h2>
+	  <section class="hathayoga">
+		<h2 role="heading">
+		  <a href="hatha_yoga.html" title="Types of practice" target="_self">Hatha Yoga </a> 
+		</h2>
 
-			<article class="practice" role="article">
-				<header>
-					<img src="Images/posture.jpg" width="235" height="110" alt="Lady yoga pose"/>
-					<h3 role="heading">Posture / Health Yoga</h3>
-					<p> 
-					  <a href="hatha_yoga.html" target="_self">Find out more</a>
-					</p>
-				</header>
-			</article>
+		<article role="article">
+		  <header role="banner">
+			<img src="Images/posture.jpg" width="235" height="110" alt="Lady yoga pose"/>
+			<h3 role="heading">Posture / Health Yoga</h3>
+			<p> 
+			  <a href="hatha_yoga.html" target="_self">Find out more</a>
+			</p>
+		  </header>
+		</article>
 
-			<article class="practice" role="article">
-				<header>
-					<img src="Images/family.jpg" width="235" height="110" alt="Pregnant yoga"/>
-					<h3 role="heading">Family Yoga</h3>
-					<p> 
-					  <a href="hatha_yoga.html" target="_self">Find out more</a>
-					</p>
-				</header>
-			</article>
+		<article role="article">
+		  <header role="banner">
+			<img src="Images/family.jpg" width="235" height="110" alt="Pregnant yoga"/>
+			<h3 role="heading">Family Yoga</h3>
+			<p> 
+			  <a href="hatha_yoga.html" target="_self">Find out more</a>
+			</p>
+		  </header>
+		</article>
 
-			<aside class="practice" role="complementary">
-				<header>
-					<img src="Images/workshop.jpg" width="235" height="110" alt="Lady yoga pose"/>
-					<h3 role="heading">Yoga Workshops</h3>
-					<p>
-						<a href="hatha_yoga.html" target="_self">Find out more</a>
-					</p>
-				</header>
-		  </aside>
-		</section>
+		<aside role="complementary">
+		  <header role="banner">
+			<img src="Images/workshop.jpg" width="235" height="110" alt="Lady yoga pose"/>
+			<h3 role="heading">Yoga Workshops</h3>
+			<p>
+			  <a href="hatha_yoga.html" target="_self">Find out more</a>
+			</p>
+		  </header>
+		</aside>
+	  </section>
 <!--END SECTION --> 
-    
+
 <!--START SECTION -->
-		<section id="about">
-			  <a href="about.html"> 
-				  <img role="img" src="Images/about.jpg" width="715" height="400" alt="woman yoga pose"/> 
-			  </a>
-		  <h2 role="heading">
-			  About
-		  </h2>
-		  <article role="article">
-			<blockquote>
-				<q> 
-					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor    quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
-				</q>
-			</blockquote>
-		  </article>
-		</section>
-	</main>
+	  <section class="about">
+		<a href="about.html"> 
+		  <img role="img" src="Images/about.jpg" width="715" height="400" alt="woman yoga pose"/> 
+		</a>
+		<h2 role="heading">
+		  About
+		</h2>
+		<article role="article">
+		   <p>
+			  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor    quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
+			</p>
+		</article>
+	  </section>
+ 	</main>
 <!--END MAIN--> 
 
 <!--START SECTION -->
@@ -147,7 +146,7 @@
 			<p> 
 				<small> &copy;2016
 				<a href="about.html" title="copyright" rel="license" target="_self"> Love the place your in</a> 
-				All rights reserved 
+					All rights reserved 
 				</small> 
 			</p>
 		  </div>
