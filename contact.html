@@ -14,7 +14,7 @@
 <!--START BODY-->
 <!--The first class in each tag defines the WAI/ARIA role taxonomy and
  describes the characteristics and properties of all the roles-->
-<body role="document">
+<body class="contact" role="document">
 	<header role="banner">
  		<h1 role="heading">
   		<a href="#" title="Love The Place Your in Yoga" target="_blank">Love The Place Your in Yoga</a>
@@ -47,25 +47,70 @@
 		</ul>
 	  </nav>
 	</header>
-<!--END NAVIGATION--> 
+<!--END NAVIGATION-->
+
+<!--START MAIN-->
+	
+	<main role="main" class="main">
 
 <!--START SECTION -->
-		<footer class="contactInfo"  role="contentinfo" >
-		  <h2 role="heading"> 
-			  <a href="contact.html" title="contact details" target="_self">contact</a>
-		  </h2>
+		<section class="contact">
+		  	<aside role="complementary">
+				<h1 role="heading">
+					Lets Chat
+			  	</h1>
+			  	<p>
+					If you have any questions or comments please get in touch by phone, email or by compleating our
+					online enquiry form below
+					<br>Nameste
+					<br>NICHOLA
+			  	</p>
+		  	</aside>
 			
-		  <div class="address">
-			<p> <b>Love the place your in yoga</b> </p>
-			<p> <i>The Hall</i>, Ashbourne </p>
-			<p> 1234567890 </p>
-			<p id="email"> 
-				<a href="contact.html" title="enquiry" target="_self">name@name.com</a>
-			</p>
-		  </div>
-		</footer>
-<!--END SECTION --> 
+		  	<footer role="contentinfo" >
+				<div class="enquiry">
+					<label for="name">Name: 
+						<span class="required">*</span> 
+					</label>
+					<input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus />
+					
+					<label for="email">Email Address: 
+						<span class="required">*</span> 
+					  </label>
+					<input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+					
+					<label for="phone">Phone: 
+						<span class="required">*</span>
+					  </label>
+					<input type="phone" id="phone" name="phone" value="" placeholder="" required="required" />
+				
+				    <label for="message">Comment: 
+						<span class="required">*</span> 
+				    </label>
+					<textarea id="comment" name="comment" placeholder="Write your comment here." required ></textarea>
+			
+					<input type="submit" value="Submit" id="submit" />
+				</div>
+			</footer>
 
+			<aside role="complementary">
+				<div id="map">My map will go here</div>
+			</aside>
+    	</section>
+	</main>
+<!--END MAIN-->	
+	
+	<footer class="contactInfo"  role="contentinfo" >	
+	  <div class="address">
+		<p> <b>Love the place your in yoga</b> </p>
+		<p> <i>The Hall</i>, Ashbourne </p>
+		<p> 1234567890 </p>
+		<p id="my_email"> 
+			<a href="contact.html" title="enquiry" target="_self">name@name.com</a>
+		</p>
+	  </div>
+	</footer>
+ 
 <!--START FOOTER-->
 		<footer class="pageFooter" role="contentinfo">
 		  <div class="copyright">
