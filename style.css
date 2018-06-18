@@ -1,6 +1,17 @@
 @charset "UTF-8";
 
-#blog {
+#hatha_yoga_page header h1 a {
+ font-family:Amatic SC;
+ font-weight:700;
+ font-size:22px;
+ font-style:normal;
+ letter-spacing:1px;
+ border-right-style:solid;
+ border-right-width:px;
+ color:rgb(85,85,85);
+ padding-right:15px;
 }
-#blog1 {
+
+#hatha_yoga_page h2 {
+  font-family:Amatic SC;
 }
